@@ -1,0 +1,15 @@
+#######################################################################
+# Scheduled Shutdown Module
+#
+# Enable or disable automatic daily server restart
+ScheduledShutdown.Announce = 1
+ScheduledShutdown.Enable = 1
+
+# Time of the shutdown (24h format)
+ScheduledShutdown.Hour = 4
+ScheduledShutdown.Minute = 0
+
+# Time in seconds before restart after announcement
+ScheduledShutdown.AnnouncementSeconds = 60
+#
+#######################################################################
